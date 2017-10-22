@@ -1,0 +1,12 @@
+﻿echo "# 2048" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Wenqiang01/2048.git
+git push -u origin master
+
+
+https://github.com/Wenqiang01/2048.git
+
+
+一步一步JavaScript游戏之坦克大战教学 视频 01

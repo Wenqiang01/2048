@@ -14,13 +14,15 @@ var game = {
                 this.data[r][c] = 0;
             }
         }
+        //initialize first 2 numbers
         this.randomNum();
         this.randomNum();
         this.score = 0;
         
-
+        //render the view
         this.updateView();
 
+        //add key command 
         document.onkeydown = function (e) {
             switch (e.keyCode) {
                 case 37:
@@ -227,4 +229,5 @@ var game = {
     }
 }
 
+//start function
 game.gameStart();

@@ -86,6 +86,7 @@ var game = {
     },
     moveAction: function (callback) {
         var before = String(this.data);
+        //callback is used to run different code snaps.
         callback();
         var after = String(this.data);
         if (before != after) {

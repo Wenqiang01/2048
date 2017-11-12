@@ -226,5 +226,5 @@ var game = {
         return -1;
     }
 }
-
+//Game start function
 game.gameStart();

@@ -1,3 +1,4 @@
+//git added by version 1
 var game = {
     data: null,
     RN: 4, CN: 4,

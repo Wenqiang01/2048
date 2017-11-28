@@ -1,6 +1,6 @@
-
 //git added by version 1
 //added by branch wqtest
+//added from version 2
 var game = {
     data: null,
     RN: 4, CN: 4,

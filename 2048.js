@@ -1,4 +1,6 @@
+
 //git added by version 1
+//added by branch wqtest
 var game = {
     data: null,
     RN: 4, CN: 4,
@@ -15,13 +17,15 @@ var game = {
                 this.data[r][c] = 0;
             }
         }
+        //initialize first 2 numbers
         this.randomNum();
         this.randomNum();
         this.score = 0;
         
-
+        //render the view
         this.updateView();
 
+        //add key command 
         document.onkeydown = function (e) {
             switch (e.keyCode) {
                 case 37:
@@ -85,6 +89,7 @@ var game = {
     },
     moveAction: function (callback) {
         var before = String(this.data);
+        //callback is used to run different code snaps.
         callback();
         var after = String(this.data);
         if (before != after) {
@@ -227,5 +232,10 @@ var game = {
         return -1;
     }
 }
+<<<<<<< HEAD
 //Game start function
+=======
+
+//start function
+>>>>>>> wqtest
 game.gameStart();

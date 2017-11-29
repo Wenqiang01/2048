@@ -2,6 +2,7 @@
 //added by branch wqtest
 //added from version 2
 //added by branch test1
+//added by branch test1 - 1
 var game = {
     data: null,
     RN: 4, CN: 4,
